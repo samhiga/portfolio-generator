@@ -1,0 +1,34 @@
+function generateHTML(data) {
+    return `# ${data.title}
+
+    <!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Student Bio</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Student Bio</h1>
+    </header>
+
+    <section>
+      <h2>Your Name</h2>
+    </section>
+
+    <section>
+      <h2>Contact Info</h2>
+    </section>
+  </body>
+
+</html>
+    
+    
+
+  
+  `;
+  }
+  
+  module.exports = generateHTML;
